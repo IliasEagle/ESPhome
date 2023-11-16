@@ -10,7 +10,7 @@ ld2410:
 
 binary_sensor:
  - platform: gpio
-    pin: "${pin_presence}"
+    pin: GPIO26
     name: "Presence"
     id: sensor_precense
     device_class: motion
