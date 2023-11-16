@@ -9,7 +9,7 @@ ld2410:
   id: my_ld2410
 
 binary_sensor:
- - platform: gpio
+  - platform: gpio
     pin: GPIO26
     name: "Presence"
     id: sensor_precense
